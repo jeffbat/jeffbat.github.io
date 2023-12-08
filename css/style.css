@@ -1,0 +1,204 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 20px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-contact-linkedin {
+  height: 100%;
+}
+
+img {
+  max-height: 100%;
+}
+
+.about {
+  margin: 10px 10%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.about-picture img {
+  clip-path: circle();
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.about-description-footer img {
+  max-width: 50px;
+}
+
+.about-description-footer a{
+  text-decoration: none;
+}
+
+.about-description-footer {
+  margin: 10px;
+  box-shadow: 0 0 3px 0 #c3c3c3;
+  padding: 10px;
+}
+
+.about-description-footer-text {
+  text-align: center;
+  color: #929292;
+}
+
+.about-description-footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.about-description-footer-resume {
+  font-style: italic;
+}
+
+.about-description-container {
+  margin: 20px;
+}
+
+.main-content {
+  margin: 10px 10%;
+}
+
+.main-section {
+  margin: 35px 0;
+  box-shadow: 0 0 10px 0 #d6d6d6;
+  padding-bottom: 5px;
+  border-radius: 1px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3d3d3d;
+  display: inline-block;
+  background-color: #cecece;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+}
+
+.profession-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 10px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profession-item-logo {
+  /*background-color: blue;*/
+  height: 100px;
+  /*width: 100px;*/
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.grid-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  box-shadow: 0 0 6px 0 #e7e7e7;
+  margin: 10px;
+  padding: 5px;
+}
+
+.skill-group-header {
+  font-size: 17px;
+  color: #777777;
+  font-weight: 600;
+  padding: 12px 8px;
+}
+
+.skill-group-item {
+  padding: 8px 8px 10px 8px;
+  border-top: 1px solid #efefef;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+}
+
+.skill-group-item-logo {
+  /*height: 30px;*/
+}
+
+.skill-group-item:first-of-type {
+  border-top: none;
+}
+
+
+.copyright {
+  text-align: center;
+  padding: 20px 0;
+  color: #9E9E9E;
+}
+
+.fav-book-image {
+  text-align: center;
+}
+
+.fav-book-title {
+  padding: 20px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 80px;
+}
+
+.fav-book-description {
+  padding: 8px;
+}
+
+.nav-contact {
+  width: 70px;
+  text-align: center;
+}
+
+.nav-contact a {
+  max-width: 100%;
+}
+
+.nav-contact a img {
+  max-width: 100%;
+}
+
+.divided-section {
+  margin: 20px 0;
+}
+
+.fav-book-image img {
+  min-height: 350px;
+  max-height: 350px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid-display {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .grid-display {
+    grid-template-columns: 1fr;
+  }
+}
