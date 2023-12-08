@@ -1,1 +1,491 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="stylesheet" media="(max-width:800px)" href="example.css"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/><title>React App</title><link href="/static/css/main.cb997fe6.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,a,i=r[0],c=r[1],l=r[2],f=0,s=[];f<i.length;f++)a=i[f],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&s.push(o[a][0]),o[a]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var c=t[i];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"179cb088"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/",a.oe=function(e){throw console.error(e),e};var i=this["webpackJsonpmy-app"]=this["webpackJsonpmy-app"]||[],c=i.push.bind(i);i.push=r,i=i.slice();for(var l=0;l<i.length;l++)r(i[l]);var p=c;t()}([])</script><script src="/static/js/2.b7b09960.chunk.js"></script><script src="/static/js/main.f7f23414.chunk.js"></script></body></html>
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Enkhjin Bat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!--  <link rel="manifest" href="site.webmanifest">-->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<header class="nav">
+    <div class="nav-name">Enkhjin BAT</div>
+    <div class="nav-contact">
+        <a href="https://github.com/jeffbat" target="_blank">
+            <img src="img/GitHub_Logo_White.png" alt="github link">
+        </a>
+    </div>
+</header>
+<section class="about">
+    <div class="about-picture">
+        <img src="img/EnkhjinProfilePic.jpg" alt="Profile pic" class="about-picture-img">
+    </div>
+    <div class="about-description-container">
+        <div class="about-description">
+            Hi my name is Enkhjin Bat! Nice to meet you!
+        </div>
+        <div class="about-description-footer">
+            <div class="about-description-footer-text">
+                Links
+            </div>
+            <div class="about-description-footer-links">
+<!--                <a href="https://www.linkedin.com/in/jeff-bat-37490594/">-->
+<!--                    <img src="img/linkedInLogo.png" alt="linkedinLogo">-->
+<!--                </a>-->
+                <div class="about-description-footer-resume">
+                    <a href="Enkhjin_Bat_resume.pdf" target="_blank">
+                        Download Resum&eacute
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main-content">
+    <div class="main-section">
+        <div class="section-title">
+            Personal Projects
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>Financial Market Application</strong>
+                </div>
+                <div class="profession-item-description">
+                    <ul>
+                        <li>Initiated and completed a foundational tech project: a <strong>web app</strong> for tracking the US stock market.</li>
+                        <li>Utilized <strong>JavaScript</strong> and <strong>jQuery</strong> to manipulate the <strong>DOM</strong>, ensuring an engaging user experience.</li>
+                        <li>Demonstrated proficiency in <strong>HTML, CSS, and Git & GitHub</strong>, incorporating <strong>AJAX</strong> for real-time data retrieval.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profession-item-logo">
+                <img src="img/stockAppIcon.jpeg" alt="StockAppIcon">
+            </div>
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <profession-item-title>
+                    <strong>
+                        News App
+                    </strong>
+                </profession-item-title>
+                <div class="profession-item-description">
+                    <ul>
+                        <li>Led <strong>pair programming</strong> efforts to develop a dynamic News Application using the <strong>MERN</strong> tech stack.</li>
+                        <li>Implemented key features including <strong>CRUD functionality, user authentication, and RESTful routing</strong>.</li>
+                        <li>Applied Bootstrap CSS Framework for a polished user interface, showcasing proficiency in JavaScript and Full Stack development.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profession-item-logo">
+                <img src="img/newsAppIcon.png" alt="News App Logo">
+            </div>
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>Trello Copy</strong>
+                </div>
+                <div class="profession-item-description">
+                    <ul>
+                        <li>Engineered a Trello mock-up with a <strong>multi-model PostgreSQL database</strong>, emphasizing RESTful routing and <strong>MVC pattern</strong>.</li>
+                        <li>Implemented <strong>advanced React</strong> features, authenticated sessions, and <strong>JWT</strong> for enhanced security.</li>
+                        <li>Utilized a tech stack including Django, Python, PostgreSQL, JavaScript/React, HTML, CSS, and collaborated in a <strong>team programming setting</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profession-item-logo">
+                <img src="img/trelloIcon.png" width="200" alt="Trello Icon">
+            </div>
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>Ecommerce</strong>
+                </div>
+                <div class="profession-item-description">
+                    <ul>
+                        <li>Developed feature-rich e-commerce site with emphasis on RESTful routing, MVC, and advanced React.</li>
+                        <li>Implemented secure authenticated sessions, enhanced UI with <strong>React-Bootstrap</strong>, and managed a comprehensive tech stack.</li>
+                        <li>Achieved seamless <strong>product catalog management, integrated secure payment gateways, and ensured responsive design</strong></strong>.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profession-item-logo">
+                <img src="img/trelloIcon.png" width="200" alt="Trello Icon">
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="section-title">
+            Education
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>Applied Associate of Science, Information Systems Technology</strong>
+                </div>
+                <div class="profession-item-date">
+                    Present
+                </div>
+                <div class="profession-item-description">
+                    Northern Virginia Community College
+                    <ul>
+                        <li>Completed 50 Credit hours</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profession-item-logo">
+                <img src="img/nvcc.jpeg" width="100" alt="">
+            </div>
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>Software Engineering Immersive Bootcamp Graduate</strong>
+                </div>
+                <div class="profession-item-date">
+                    2021
+                </div>
+                <div class="profession-item-description">
+                    General Assembly
+                    <ul>
+                        <li>Completed 500+ hours of hands-on programming</li>
+                        <li>Developed 4 full-stack applications</li>
+                        <li>Studied algorithms and data structures</li>
+                        <li>Learned how to work in a team environment to develop a software</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profession-item-logo">
+                <img src="img/ga.png" width="100" alt="General Assembly logo">
+            </div>
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>Bachelor of Laws</strong>
+                </div>
+                <div class="profession-item-date">
+                    2006 - 2011
+                </div>
+                <div class="profession-tem-description">
+                    St. Petersburg University, Russia
+                </div>
+            </div>
+            <div class="profession-item-logo" style="background-color: #9f5d5d;padding-right: 10px;">
+                <img src="img/stPetersburgUniversity.svg" width="100" alt="GMU Logo">
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="section-title">
+            Work Experience
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>GF Inc - Il Canale Restaurant</strong>
+                </div>
+                <div class="profession-item-date">
+                    2018 - 2020
+                </div>
+                <div class="profession-tem-description">
+                  Showcased excellent customer service, adept problem-solving, and effective
+                  teamwork in a fast-paced restaurant environment. Thrived under pressure, enhancing my ability to work efficiently.
+                </div>
+            </div>
+            <div class="profession-item-logo" style="background-color: #000000;padding-right: 10px;">
+                <img src="img/ilCanaleLogo.png" width="100" alt="GMU Logo">
+            </div>
+        </div>
+        <div class="profession-item">
+            <div class="profession-item-left">
+                <div class="profession-item-title">
+                    <strong>GrubHub/Dlivrd</strong>
+                </div>
+                <div class="profession-item-date">
+                    2021 - 2023
+                </div>
+                <div class="profession-item-description">
+                  Delivery Partner: Efficiently managed time for timely deliveries, honed communication skills with customers and staff, promptly
+                  resolved challenges
+                </div>
+            </div>
+            <div class="profession-item-logo" style="flex-direction:column">
+              <img src="img/gh.jpeg" width="100" alt="GMU logo">
+              <img src="img/dlivrd.webp" width="100" alt="GMU logo">
+            </div>
+        </div>
+    </div>
+    <!--    <div class="">-->
+    <!--      <div class="section-title">-->
+    <!--        Side Projects-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <div class="divided-section">
+        <div class="section-title">
+            Skills
+        </div>
+        <div class="grid-display">
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Programming Languages
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Java
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            JavaScript
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Python
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Client-side
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            React
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            React Native
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            CSS
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            HTML
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            jQuery
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Server-side
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Django
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            NodeJS
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Express
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Database
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            MySQL
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            MongoDB
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            PostgreSQL
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Tools
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            VSCode
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            GIT
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            GitHub
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Heroku
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            MongoDB Atlas
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Concepts
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Object Oriented Programming
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Model View Controller
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            REST
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Agile / Scrum
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="skill-group-header">
+                    Non-technical
+                </div>
+                <div class="skill-group-items">
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Communication
+                        </div>
+                    </div>
+                    <div class="skill-group-item">
+                        <div class="skill-group-item-logo">
+                        </div>
+                        <div class="skill-group-item-name">
+                            Teamwork
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--      END SKILL DISPLAY-->
+    </div>
+</section>
+<footer>
+    <div class="copyright">&copy; Enhkjin Bat</div>
+</footer>
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
